@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+li {
+    display:inline;
+    color: white;
+}
+
+.hero-image{
+    background: url(../images/jason-leung-537357-unsplash.jpg);
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
