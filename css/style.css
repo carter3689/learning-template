@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Nunito');
 
 body {
     margin: 0;
@@ -19,11 +19,53 @@ li {
     display:inline;
     color: white;
 }
+.container{
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay{
+    background-color: #333333;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background:linear-gradient(125deg,#ff1053,#3452ff);
+    color: #333333;
+    padding: 20px 56px 20px 54px;
+    margin-top:10px;
+    border-radius: 5px;
+    display: inline-block;
+    width:20%;
+    font-size: 100%;
+  }
+
+ div .button{
+    margin: 0 auto;
+  }
+
+
+ .button span{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+  }
 
 .hero-image{
-    background: url(../images/jason-leung-537357-unsplash.jpg);
+    background: #333333 url(../images/jason-leung-537357-unsplash.jpg);
     object-fit: cover;
     background-size: cover;
     height: 100%;
     color: white;
+    opacity: 0.8;
+}
+.gallery-text{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
